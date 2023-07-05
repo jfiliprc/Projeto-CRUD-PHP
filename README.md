@@ -16,7 +16,7 @@ Antes de executar o projeto, certifique-se de ter os seguintes requisitos:
 
 2. Dentro do banco de dados "cadastro", crie uma tabela chamada "usuario" com a seguinte estrutura:
 
-CREATE TABLE usuario (
+CREATE TABLE usuarios (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(100) NOT NULL,
