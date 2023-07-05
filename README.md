@@ -23,7 +23,7 @@ CREATE TABLE usuarios (
   senha VARCHAR(100) NOT NULL
 );
 
-## Configuração do Projeto:
+## Configuração do Projeto
 
 1. Clone ou baixe os arquivos deste repositório para o diretório raiz do seu servidor web.
 
