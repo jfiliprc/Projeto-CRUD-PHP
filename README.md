@@ -29,18 +29,19 @@ CREATE TABLE usuarios (
 
 2. Abra o arquivo config.php e verifique se as configurações de acesso ao banco de dados estão corretas:
 
+```
 <?php
 define('HOST', 'localhost');
 define('USER', 'root');
 define('PASS', '');
 define('BASE', 'cadastro');
-
 try {
     $conn = new PDO('mysql:host='. HOST. ';dbname=' . BASE, USER, PASS);    
 } catch (PDOException $e) {
     echo "Erro: " . $e->getMessage() . "<br />";
 }
 ?>
+```
 
 Abra o arquivo index.php no seu navegador. Agora você poderá criar, ler, atualizar e excluir informações de usuários usando o formulário fornecido.
 
